@@ -1,0 +1,58 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body, html {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .contenedor {
+        width: 99%;
+        height: 99%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rectangulo-superior {
+        width: 98%;
+        height: 20%;
+        margin: 10px;
+        background-color: yellow;
+    }
+    
+    .fila-inferior {
+        display: flex;
+        flex: 1;
+    }
+    
+    .cuadrados {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-content: space-between; 
+        width: 70%;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    
+    .cuadrado {
+        width: 32%; 
+        height: 48%; 
+        background-color: blue;
+        margin: 5px; 
+    }
+    
+    .rectangulo-vertical {
+        width: 28%;
+        height: 96%;
+        margin: 10px;
+        background-color: red;
+    }
